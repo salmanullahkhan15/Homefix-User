@@ -1,0 +1,88 @@
+page-profile {
+    .home-head img {
+        width: 35%;
+    }
+    .home-head .img-menu {
+        width: 35%;
+    }
+    .home-head .btn-search {
+        position: absolute;
+        top: 14px;
+        right: 0px;
+    }
+    .home-head ion-title {
+        width: 80%;
+        text-align: center;
+    }
+    .home-head .toolbar-background {
+        background: transparent;
+    }
+    .header-md::after,
+    .tabs-md[tabsPlacement="top"]>.tabbar::after,
+    .footer-md::before,
+    .tabs-md[tabsPlacement="bottom"]>.tabbar::before {
+        background-image: none !important;
+    }
+    .bg-img {
+        background: url(../assets/imgs/home/bg.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .img-class .img-person {
+        width: 50%;
+        border: 3px solid #f17f37;
+        border-radius: 160px;
+    }
+    .img-class {
+        text-align: center;
+    }
+    .profile-form {}
+    .profile-form .input-item-cus input {
+        width: 70%;
+        height: 44px;
+        border: none;
+        border-bottom: 1px solid;
+        margin-left: 11vw;
+        background: transparent;
+    }
+    .profile-form .input-item-cus img {
+        position: relative;
+        top: 2vw;
+        width: 4.8vw;
+        left: 9vw;
+    }
+    .profile-form .input-item-cus {
+        margin-top: 3vh;
+    }
+    .done-btn {
+        background-color: #f17f37;
+        border-radius: 150px;
+        height: 44px;
+        font-size: 15px;
+        margin-top: 530px;
+        width: 80%;
+        margin: auto;
+        margin-top: 5vh;
+    }
+    .edit-img-circle {
+    /* float: right; */
+    background: #f17f37;
+    width: 11vw;
+    border-radius: 150px;
+    height: 11vw;
+    /* text-align: center; */
+    margin: auto;
+    position: relative;
+    top: -10vw;
+    left: 10vw;
+
+    }
+    .edit-img-circle img {
+        width: 5vw;
+        position: relative;
+        top: 2.5vw;
+        left: 0.2vw;
+    }
+}

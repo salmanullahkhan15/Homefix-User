@@ -1,0 +1,61 @@
+page-contact-us {
+    .bg-img {
+        background: url(../assets/imgs/login/login_bg.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .home-head img {
+        width: 35%;
+    }
+    .home-head .img-menu {
+        width: 35%;
+    }
+    .home-head .btn-search {
+        position: absolute;
+        top: 14px;
+        right: 0px;
+    }
+    .home-head ion-title {
+        width: 80%;
+        text-align: center;
+    }
+    .home-head .toolbar-background {
+        background: transparent;
+    }
+    .header-md::after,
+    .tabs-md[tabsPlacement="top"]>.tabbar::after,
+    .footer-md::before,
+    .tabs-md[tabsPlacement="bottom"]>.tabbar::before {
+        background-image: none !important;
+    }
+    .contact-txt {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 4vw;
+    }
+    .contact-form ion-item {
+        text-align: center;
+        background: transparent;
+        margin-top: 5%;
+    }
+    .contact-form ion-item .item-inner {
+        border-bottom: 1px solid #696969 !important;
+    }
+    .contact-form ion-item .input-has-focus .item-inner {}
+    .contact-form ion-item .item-input-has-focus .label[floating] {
+        color: #666666 !important;
+    }
+    .done-btn {
+        background-color: #f17f37;
+        border-radius: 150px;
+        height: 44px;
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
+        margin-top: 15%;
+    }
+}

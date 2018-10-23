@@ -1,0 +1,60 @@
+page-home {
+    .bg-img{ 
+        background: url(../assets/imgs/home/bg.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }   
+    .col-custom{
+        margin: auto;
+        text-align: center;
+        background: #fff;
+        padding-top: 10%;
+        padding-bottom: 20px;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 48%;
+        -ms-flex: 0 0 48%;
+        flex: 0 0 48%;
+        margin: 1%;
+        width: 48%;
+    }
+    .col-custom img{
+        width: 55%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .col-custom p{
+        font-size: 100%;
+    }
+
+    .home-head img{
+        width: 35%;
+    }
+
+    .home-head .img-menu{
+        width: 35%;
+    }
+    
+
+    .home-head .btn-search{
+        position: absolute;
+        top: 14px;
+        right: 0px;
+    }
+
+    .home-head  ion-title{
+        width: 80%;
+        text-align: center;
+    }
+
+
+    .home-head .toolbar-background{
+        background: transparent;
+    }
+
+.header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+        background-image: none !important;
+    }
+}

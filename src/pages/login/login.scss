@@ -1,0 +1,115 @@
+page-login {
+    .bg-img{ 
+        background: url(../assets/imgs/login/login_bg.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }      
+    .icon-head{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .icon-head img{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    
+    }
+
+    .segment-main ion-segment{
+        background: #fff ;
+        border-radius: 150px;
+        color:#000;
+        margin-top: -30px;
+    }
+
+    .segment-main ion-segment .segment-button{
+         color:#000;
+    }
+
+    .segment .segment-button.activated, .segment .segment-button.segment-activated {
+        border-color: transparent;
+        opacity: 1;
+        background-color: #f17f37;
+        border-radius: 150px;
+        color:#fff;
+        
+    }
+
+    .segment-ios .segment-button{
+        border: none !important;
+    }
+
+.login-seg{
+    margin-top: 15%;
+}
+
+.login-seg p{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.login-seg ion-input{
+border-bottom: 1px solid rgba(0, 0, 0, 0.41);
+height: 40px;
+}
+
+.login-seg input{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.login-seg input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+  }
+  .login-seg input::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+  }
+  .login-seg input:-ms-input-placeholder { /* IE 10+ */
+    color: #000;
+  }
+  .login-seg input:-moz-placeholder { /* Firefox 18- */
+    color: #000;
+  }
+
+  .login-seg .pass {
+      margin-top: 25px;
+  }
+.remember-text ion-item{
+    background: transparent;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.remember-text ion-item .item-inner{
+    border: none !important;
+}
+.remember-text ion-item ion-checkbox{
+margin-right:10px !important;
+}
+
+.remember-text ion-item .checkbox-icon {
+    background: transparent;
+    color: #000;
+    }
+    .remember-text ion-item .checkbox-checked .checkbox-inner {
+        border-color: #000;
+    }
+
+    .login-seg .done-btn{
+        background-color: #f17f37;
+        border-radius: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+    .login-seg .forget{
+        color: #f17f37;
+    }
+
+    .signup-btn{
+        margin-top: 25px;
+    }
+}

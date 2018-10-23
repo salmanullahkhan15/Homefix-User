@@ -1,0 +1,209 @@
+page-order-details {
+    .order-content .fixed-content {
+        margin: 0px !important;
+    }
+    .order-content .scroll-content {
+        margin: 0px !important;
+        background: #ededed;
+    }
+    .head-cont {
+        width: 90%;
+        height: 100px;
+        background: #fff;
+        margin: auto;
+        position: absolute;
+        margin-top: -50px; // border: 1px solid;
+        margin-left: 5vw;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .head-cont img {
+        width: 25%;
+        margin-top: -50px;
+    }
+    .head-cont h1 {
+        margin: 0px;
+        font-size: large;
+        font-weight: 600;
+        margin: 0px;
+    }
+    .head-cont p {
+        margin: auto;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .head-cont p span {
+        color: #f17f37;
+    }
+    .form-cont {
+        width: 90%;
+        height: 150px;
+        background: #fff;
+        margin: auto;
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 5vw;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .service-select {
+        width: 90%;
+        margin: auto;
+        border: 1px solid #ededed;
+        height: 30px;
+        margin-top: 15px;
+    }
+    .service-select .select-icon-inner,
+    .date-select .select-icon-inner,
+    .time-select .select-icon-inner,
+    .location-select .select-icon-inner,
+        {
+        color: #f17f37 !important;
+    }
+    .date-select {
+        width: 40%;
+        border: 1px solid #ededed;
+        height: 30px;
+        margin-top: 15px;
+        float: left;
+        margin-left: 4.5vw;
+    }
+    .time-select {
+        width: 40%;
+        border: 1px solid #ededed;
+        height: 30px;
+        margin-top: 15px;
+        float: right;
+        margin-right: 4.5vw;
+    }
+    .description {
+        width: 90%;
+        border: 1px solid #ededed;
+        margin-top: 5%;
+        height: 90px;
+    }
+    .location-select {
+        width: 50%;
+        margin: auto;
+        border: 1px solid #ededed;
+        height: 30px;
+        margin-top: 15px;
+        float: left;
+        margin-left: 4vw;
+    }
+    .location-btn {}
+    .location-btn {
+        width: 38%;
+        height: 44px;
+        background: #f17f37;
+    }
+    .img-upload {
+        width: 90%;
+        height: 170px;
+        background: #fff;
+        margin: auto;
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 5vw;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .img-upload ion-scroll img {
+        width: 60px;
+        height: 70px;
+        margin-right: 15px;
+    }
+    .img-upload ion-scroll .scroll-content {
+        background: #fff;
+    }
+    .done-btn {
+        background-color: #f17f37;
+        border-radius: 150px;
+        height: 44px;
+        font-size: 15px;
+        margin-top: 530px;
+        width: 80%;
+        margin: auto;
+        margin-top: 450px;
+        margin-bottom: 40px;
+    }
+    .order-head {
+        height: 44px;
+    }
+    .order-head .toolbar-title {
+        color: #fff;
+        text-align: center;
+    }
+    .header-md::after {
+        background-image: none !important;
+    }
+    .left-detail {
+        height: 100%;
+        width: 30%;
+        float: left;
+        padding-top: 35px;
+    }
+    .right-detail {
+        height: 80%;
+        width: 70%;
+        float: left;
+        text-align: left;
+        padding-right: 7px;
+        border-left: 1px solid #777676;
+        padding-left: 10px;
+        margin-top: 13px;
+    }
+    .left-detail p {
+        margin: auto;
+    }
+    .left-detail img {
+        width: 30%;
+    }
+    .left-detail p.small-txt {
+        font-size: 12px;
+        color: #777676;
+    }
+    .txt-margin {
+        margin-top: 9px;
+    }
+    .txt-color {
+        color: #f17f37;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 0px;
+    }
+    .right-detail p.small-txt {
+        font-size: 12px;
+        color: #777676;
+    }
+    .txt-color-service {
+        color: #f17f37;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .fees-class .fees-detail {
+        height: 24px;
+        width: 100%;
+    }
+    .fees-detail .first-p {
+        width: 50%;
+        text-align: left;
+        float: left;
+        padding-left: 15px;
+        margin: auto;
+    }
+    .fees-detail .sec-p {
+        width: 50%;
+        text-align: right;
+        float: left;
+        padding-right: 15px;
+        margin: auto;
+        color: #f17f37;
+    }
+    .fees-class .fees-detail.total-p {
+        margin-top: 8px;
+        border-top: 1px solid #a9a5a5;
+        line-height: 40px;
+    }
+}

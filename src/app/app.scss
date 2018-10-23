@@ -1,0 +1,65 @@
+// http://ionicframework.com/docs/theming/
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.menu-class .bg_img {
+    background: url(../assets/imgs/menu/sidemenu_bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu-class .menu-head img {
+    width: 26%;
+    border: 2px solid #f17f37;
+    border-radius: 150px;
+}
+
+.menu-class .menu-head {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.menu-class .menu-head h2 {
+    font-weight: 400;
+}
+
+.menu-class .menu-head p {
+    margin-top: -10px;
+    font-weight: 200;
+}
+
+.menu-class ion-list button {
+    background: transparent;
+    text-align: center;
+    height: 39px;
+    min-height: 35px;
+}
+
+.menu-class ion-list button .item-inner {
+    border: none !important;
+}
+
+.menu-class ion-list button .item-inner ion-label {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.menu-class .menu-bottom {
+    width: 60%;
+}
+
+.menu-class {
+    text-align: center;
+}

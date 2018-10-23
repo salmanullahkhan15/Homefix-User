@@ -1,0 +1,46 @@
+<ion-header class="home-head">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <img class="img-menu" src="assets/imgs/home/menu.png"/>
+    </button>
+    <ion-title>Home</ion-title>
+    <button ion-button menuToggle class="btn-search">
+      <img class="img-search" src="assets/imgs/home/search.png"/>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg-img">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 class="col-custom" (click)="gotoOrder()">
+        <img src="assets/imgs/home/gardening.png" />
+        <p>GARDENING</p>
+      </ion-col>
+      <ion-col col-6 class="col-custom">
+        <img src="assets/imgs/home/painting.png" />
+        <p>PAINTING</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="col-custom">
+        <img src="assets/imgs/home/pluming.png" />
+        <p>PLUMBING</p>
+      </ion-col>
+      <ion-col col-6 class="col-custom">
+        <img src="assets/imgs/home/electrician.png" />
+        <p>ELECTRICIAN</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6 class="col-custom">
+        <img src="assets/imgs/home/carwash.png" />
+        <p>CAR WASH</p>
+      </ion-col>
+      <ion-col col-6 class="col-custom">
+        <img src="assets/imgs/home/house_cleaning.png" />
+        <p>HOUSE CLEANING</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

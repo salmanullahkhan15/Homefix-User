@@ -1,0 +1,99 @@
+<!--
+  Generated template for the OrderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="order-head">
+
+  <img scr="assets/imgs/order/left_arrow.png">
+  <!-- <ion-navbar> -->
+  <ion-title>Order</ion-title>
+  <!-- </ion-navbar> -->
+</ion-header>
+
+
+<ion-content class="order-content">
+  <img src="assets/imgs/order/cover_picture.png">
+
+  <div class="head-cont">
+    <img src="assets/imgs/order/gardening_service_icon.png">
+    <h1>Gardening</h1>
+    <p>Your Order No.
+      <span>456789</span>
+    </p>
+  </div>
+
+  <div class="form-cont">
+    <ion-item class="service-select">
+      <ion-label>Maintenance Services</ion-label>
+      <ion-select [(ngModel)]="service">
+        <ion-option value="nes">NES</ion-option>
+        <ion-option value="n64">Nintendo64</ion-option>
+        <ion-option value="ps">PlayStation</ion-option>
+        <ion-option value="genesis">Sega Genesis</ion-option>
+        <ion-option value="saturn">Sega Saturn</ion-option>
+        <ion-option value="snes">SNES</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <div>
+      <ion-item class="date-select">
+        <ion-label>Date</ion-label>
+        <ion-select [(ngModel)]="service">
+          <ion-option value="nes">NES</ion-option>
+          <ion-option value="n64">Nintendo64</ion-option>
+          <ion-option value="ps">PlayStation</ion-option>
+          <ion-option value="genesis">Sega Genesis</ion-option>
+          <ion-option value="saturn">Sega Saturn</ion-option>
+          <ion-option value="snes">SNES</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="time-select">
+        <ion-label>Time</ion-label>
+        <ion-select [(ngModel)]="service">
+          <ion-option value="nes">NES</ion-option>
+          <ion-option value="n64">Nintendo64</ion-option>
+          <ion-option value="ps">PlayStation</ion-option>
+          <ion-option value="genesis">Sega Genesis</ion-option>
+          <ion-option value="saturn">Sega Saturn</ion-option>
+          <ion-option value="snes">SNES</ion-option>
+        </ion-select>
+      </ion-item>
+    </div>
+
+    <textarea class="description"></textarea>
+
+    <div>
+      <ion-item class="location-select">
+        <ion-label>Location</ion-label>
+        <ion-select [(ngModel)]="service">
+          <ion-option value="nes">NES</ion-option>
+          <ion-option value="n64">Nintendo64</ion-option>
+          <ion-option value="ps">PlayStation</ion-option>
+          <ion-option value="genesis">Sega Genesis</ion-option>
+          <ion-option value="saturn">Sega Saturn</ion-option>
+          <ion-option value="snes">SNES</ion-option>
+        </ion-select>
+      </ion-item>
+      <button class="location-btn" ion-button (click)="openLocation()">Add Location</button>
+    </div>
+  </div>
+
+  <div class="img-upload">
+    <p>Upload Photos
+      <ion-icon name="logo-twitter" item-start class="right-icon"></ion-icon>
+    </p>
+
+    <ion-scroll scrollX="true" style="width: 80vw;
+    height: 70px;
+    margin: auto;">
+      <ion-row nowrap>
+        <img *ngFor="let item of imagesArray" src="assets/imgs/order/upload_image_1.png">
+      </ion-row>
+    </ion-scroll>
+  </div>
+
+  <button class="done-btn signup-btn" ion-button full (click)="gotoCartPage()">Add Order </button>
+</ion-content>
