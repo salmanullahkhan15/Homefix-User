@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>PAYMENT METHOD</ion-title>
+    <ion-title>{{ 'PAYMENTMETHOD' | translate }}</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -15,25 +15,25 @@
 
 <ion-content padding>
 
-  <div class="pay-txt">PAY WITH CARD OR CASH</div>
+  <div class="pay-txt">{{ 'PAYWITHCASH' | translate }}</div>
 
 
   <div class="pay-form">
     <ion-item class="item-cash">
-      <ion-label>Cash</ion-label>
+      <ion-label> {{ 'CASH' | translate }}</ion-label>
       <ion-toggle checked="false"></ion-toggle>
     </ion-item>
 
     <ion-list class="item-country">
       <ion-item>
-        <ion-label>Country</ion-label>
+        <ion-label>{{ 'COUNTRY' | translate }}</ion-label>
         <ion-select [(ngModel)]="gaming">
-          <ion-option value="nes">NES</ion-option>
-          <ion-option value="n64">Nintendo64</ion-option>
-          <ion-option value="ps">PlayStation</ion-option>
-          <ion-option value="genesis">Sega Genesis</ion-option>
-          <ion-option value="saturn">Sega Saturn</ion-option>
-          <ion-option value="snes">SNES</ion-option>
+          <ion-option value="nes">SRI LANKA</ion-option>
+          <ion-option value="n64">CHINA</ion-option>
+          <ion-option value="ps">RUSSIA</ion-option>
+          <ion-option value="genesis">UKRAINE </ion-option>
+          <ion-option value="saturn">TURKEY</ion-option>
+          <ion-option value="snes">SAUDI ARABIA</ion-option>
         </ion-select>
       </ion-item>
     </ion-list>
@@ -41,7 +41,7 @@
 
     <ion-list>
       <ion-item>
-        <ion-label fixed>Card Number</ion-label>
+        <ion-label fixed> {{ 'CARDNUM' | translate }}</ion-label>
         <ion-input type="text" value=""></ion-input>
       </ion-item>
     </ion-list>
@@ -50,27 +50,28 @@
 
 
       <ion-item class="item-ex-date">
-        <ion-label>Expiration Date</ion-label>
-        <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A"></ion-datetime>
+        <ion-label> {{ 'EXPIREDATE' | translate }}</ion-label>
+        <ion-datetime displayFormat="DD-MM-YY" pickerFormat="DDMMYY"></ion-datetime>
       </ion-item>
 
       <ion-item class="item-cvc">
-        <ion-input type="text" placeholder="CVC"></ion-input>
+        <ion-input type="text" placeholder="{{ 'CVC' | translate }}"></ion-input>
       </ion-item>
     </div>
     <div class="items-name">
       <ion-item class="item-last-name">
-        <ion-input type="text" placeholder="Last Name"></ion-input>
+        <ion-input type="text" placeholder="{{ 'LASTNAME' | translate }}"></ion-input>
       </ion-item>
 
       <ion-item class="item-first-name">
-        <ion-input type="text" placeholder="First Name"></ion-input>
+        <ion-input type="text" placeholder="{{ 'FIRSTNAME' | translate }}"></ion-input>
       </ion-item>
     </div>
 
 
-    <div class="pay-txt tkt-txt">WHAT TICKETS WOULD YOU LIKE?</div>
+    <div class="pay-txt tkt-txt"> {{ 'WHATTICKETSWOULD' | translate }}</div>
   </div>
+
 
   <div class="pay-method">
     <ion-row class="first-row">
@@ -98,6 +99,6 @@
 </ion-content>
 <ion-footer>
   <div class="submit-btn" (click)="gotoHome()">
-    Submit
+    {{ 'SUBMIT' | translate }}
   </div>
 </ion-footer>

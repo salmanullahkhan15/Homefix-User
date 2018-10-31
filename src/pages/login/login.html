@@ -15,17 +15,17 @@
 
 <ion-content padding class="bg-img">
   <div class="icon-head">
-    <img src="assets/imgs/login/logo_2.png" />
+    <img src="/assets/imgs/login/logo_2.png" />
   </div>
 
 
   <div class="segment-main">
     <ion-segment [(ngModel)]="auth">
       <ion-segment-button value="login">
-        Log in
+        {{ 'LOGIN' | translate }}
       </ion-segment-button>
       <ion-segment-button value="signup">
-        Sign Up
+         {{ 'SIGN_UP' | translate }}
       </ion-segment-button>
     </ion-segment>
   </div>
@@ -33,32 +33,32 @@
   <div [ngSwitch]="auth">
     <div *ngSwitchCase="'login'">
       <div class="login-seg">
-        <p>Email Address</p>
+        <p> {{ 'EMAIL' | translate }}</p>
         <ion-input type="text" placeholder="johndoe789@gmail.com" value=""></ion-input>
-        <p class="pass">Password</p>
+        <p class="pass"> {{ 'PASSWORD' | translate }}</p>
         <ion-input type="password" placeholder="******" value=""></ion-input>
         <div class="remember-text">
           <ion-item>
-            <ion-label>Remember</ion-label>
+            <ion-label> {{ 'REMEMBER' | translate }}</ion-label>
             <ion-checkbox color="dark" checked="true"></ion-checkbox>
           </ion-item>
         </div>
-        <button class="done-btn" ion-button full (click)="gotoHome()">Done</button>
-        <p class="forget">Forget Password</p>
+        <button class="done-btn" ion-button full (click)="gotoHome()">{{ 'DONE' | translate }}</button>
+        <p class="forget">{{ 'FORGOT' | translate }}</p>
       </div>
     </div>
 
     <div *ngSwitchCase="'signup'">
       <div class="login-seg">
-        <p>Email Address</p>
+        <p>{{ 'EMAIL' | translate }}</p>
         <ion-input type="text" placeholder="johndoe789@gmail.com" value=""></ion-input>
-        <p class="pass">Password</p>
+        <p class="pass">{{ 'PASSWORD' | translate }}</p>
         <ion-input type="password" placeholder="******" value=""></ion-input>
-        <p class="pass">Confirm Password</p>
+        <p class="pass"> {{ 'CONFIRMPASSWORD' | translate }}</p>
         <ion-input type="password" placeholder="******" value=""></ion-input>
-        <p class="pass">Confirm Password</p>
+        <p class="pass"> {{ 'MOBILE' | translate }}</p>
         <ion-input type="tel" placeholder="0122563389" value=""></ion-input>
-        <button class="done-btn signup-btn"  ion-button full (click)="gotoHome()">Done</button>
+        <button class="done-btn signup-btn"  ion-button full (click)="gotoHome()">{{ 'DONE' | translate }}</button>
       </div>
   </div>
   </div>

@@ -3,7 +3,7 @@
     <button ion-button menuToggle>
       <img class="img-menu" src="assets/imgs/home/menu.png"/>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>{{ 'HOME' | translate}}</ion-title>
     <button ion-button menuToggle class="btn-search">
       <img class="img-search" src="assets/imgs/home/search.png"/>
     </button>
@@ -15,31 +15,33 @@
     <ion-row>
       <ion-col col-6 class="col-custom" (click)="gotoOrder()">
         <img src="assets/imgs/home/gardening.png" />
-        <p>GARDENING</p>
+        <p>{{ 'GARDENING' | translate}}</p>
       </ion-col>
       <ion-col col-6 class="col-custom">
         <img src="assets/imgs/home/painting.png" />
-        <p>PAINTING</p>
+        <p> {{ 'PAINTING' | translate}}</p>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col col-6 class="col-custom">
         <img src="assets/imgs/home/pluming.png" />
-        <p>PLUMBING</p>
+        <p>{{ 'PLUMBING' | translate}}
+         </p>
       </ion-col>
       <ion-col col-6 class="col-custom">
         <img src="assets/imgs/home/electrician.png" />
-        <p>ELECTRICIAN</p>
+        <p> {{ 'ELECTRICIAN' | translate}}</p>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col col-6 class="col-custom">
         <img src="assets/imgs/home/carwash.png" />
-        <p>CAR WASH</p>
+        <p>{{ 'CARWASH' | translate}}
+          </p>
       </ion-col>
       <ion-col col-6 class="col-custom">
         <img src="assets/imgs/home/house_cleaning.png" />
-        <p>HOUSE CLEANING</p>
+        <p> {{ 'HOUSECLEANING' | translate}}</p>
       </ion-col>
     </ion-row>
   </ion-grid>

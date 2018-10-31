@@ -12,6 +12,7 @@ import { CartPage } from '../pages/cart/cart';
 import { PaymentPage } from '../pages/payment/payment';
 import { ProfilePage } from '../pages/profile/profile';
 import { OrderHistoryPage } from '../pages/order-history/order-history';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   templateUrl: 'app.html'
@@ -27,18 +28,19 @@ export class MyApp {
 
   pages: Array<{ title: string, component: any }>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,translate: TranslateService) {
     this.initializeApp();
-
+    
+    translate.setDefaultLang('en');
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Order History', component: OrderHistoryPage },
       { title: 'Profile', component: ProfilePage },
-      { title: 'Services', component: ListPage },
-      { title: 'About Us', component: ListPage },
+      { title: 'Services', component: HomePage },
+      { title: 'About Us', component: HomePage },
       { title: 'Contact Us', component: ContactUsPage },
-      { title: 'Logout', component: ListPage },
+      { title: 'Logout', component: HomePage },
     ];
 
   }

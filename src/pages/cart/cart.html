@@ -11,11 +11,11 @@
   </ion-navbar>
 
   <div class="sub-total-class">
-    <p>Subtotal (4 items):
+    <p>Subtotal (4 items):  {{ 'SUBTOTAL' | translate}}
       <span>$469</span>
     </p>
 
-    <button ion-button (click)="gotoPayment()">Checkout</button>
+    <button ion-button (click)="gotoPayment()"> {{ 'CHKOUT' | translate}}</button>
 
   </div>
 </ion-header>
@@ -30,8 +30,8 @@
     <div class="cart-item">
       <img src="assets/imgs/new/order_detail_2/upload_image_1.png">
       <div class="cart-item-text">
-        <h6>Gardening</h6>
-        <p>Maintenance Services</p>
+          <h6>{{ 'GARDENINGSMALL' | translate}}</h6>
+          <p>{{ 'MAINSERVICE' | translate}}</p>
         <h5>$100</h5>
       </div>
       <div class="item-left-btn">
@@ -40,7 +40,7 @@
         <div class="qty-num">1</div>
         <ion-icon class="rm-btn-icon" name="ios-remove-circle-outline"></ion-icon>
         <div class="rm-btn">
-          <button>Remove</button>
+          <button>{{'REMOVE' | translate}}</button>
         </div>
       </div>
     </div>
@@ -50,8 +50,8 @@
     <div class="cart-item">
       <img src="assets/imgs/new/order_detail_2/upload_image_1.png">
       <div class="cart-item-text">
-        <h6>Gardening</h6>
-        <p>Maintenance Services</p>
+          <h6>{{ 'GARDENINGSMALL' | translate}}</h6>
+          <p>{{ 'MAINSERVICE' | translate}}</p>
         <h5>$100</h5>
       </div>
       <div class="item-left-btn">
@@ -60,7 +60,7 @@
         <div class="qty-num">1</div>
         <ion-icon class="rm-btn-icon" name="ios-remove-circle-outline"></ion-icon>
         <div class="rm-btn">
-          <button>Remove</button>
+          <button>{{'REMOVE' | translate}}</button>
         </div>
       </div>
     </div>
@@ -71,8 +71,8 @@
     <div class="cart-item">
       <img src="assets/imgs/new/order_detail_2/upload_image_1.png">
       <div class="cart-item-text">
-        <h6>Gardening</h6>
-        <p>Maintenance Services</p>
+          <h6>{{ 'GARDENINGSMALL' | translate}}</h6>
+          <p>{{ 'MAINSERVICE' | translate}}</p>
         <h5>$100</h5>
       </div>
       <div class="item-left-btn">
@@ -81,7 +81,7 @@
         <div class="qty-num">1</div>
         <ion-icon class="rm-btn-icon" name="ios-remove-circle-outline"></ion-icon>
         <div class="rm-btn">
-          <button>Remove</button>
+          <button>{{'REMOVE' | translate}}</button>
         </div>
       </div>
     </div>

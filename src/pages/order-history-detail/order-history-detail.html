@@ -6,69 +6,69 @@
 -->
 <ion-header class="order-head">
 
-    <img scr="assets/imgs/order/left_arrow.png">
-    <!-- <ion-navbar> -->
-    <ion-title>ORDER DETAILS</ion-title>
-    <!-- </ion-navbar> -->
-  </ion-header>
-  
-  
-  <ion-content class="order-content">
-    <img src="assets/imgs/order/cover_picture.png">
-  
-    <div class="head-cont">
-      <img src="assets/imgs/order/gardening_service_icon.png">
-      <h1>Gardening</h1>
-      <p>Your Order No.
-        <span>456789</span>
+  <img scr="assets/imgs/order/left_arrow.png">
+  <!-- <ion-navbar> -->
+  <ion-title>{{ 'ORDER-DETAIL' | translate}}</ion-title>
+  <!-- </ion-navbar> -->
+</ion-header>
+
+
+<ion-content class="order-content">
+  <img src="assets/imgs/order/cover_picture.png">
+
+  <div class="head-cont">
+    <img src="assets/imgs/order/gardening_service_icon.png">
+    <h1>  {{ 'GARDENINGSMALL' | translate}}</h1>
+    <p>{{ 'ORDERNUM' | translate}}
+      <span>456789 </span>
+    </p>
+  </div>
+
+  <div class="form-cont">
+    <div class="left-detail">
+      <img src="assets/imgs/order_detail/calendar.png">
+      <p>
+        18 MARCH
+      </p>
+      <p class="small-txt">
+        2018
+      </p>
+      <p class="small-txt txt-margin">
+        5:00 AM
       </p>
     </div>
-  
-    <div class="form-cont">
-      <div class="left-detail">
-        <img src="assets/imgs/order_detail/calendar.png">
-        <p>
-          18 MARCH
-        </p>
-        <p class="small-txt">
-          2018
-        </p>
-        <p class="small-txt txt-margin">
-          5:00 AM
-        </p>
-      </div>
-      <div class="right-detail">
-        <p class="txt-color">Maintenance</p>
-        <p class="small-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, the industry's standard dummy text ever since the 1500s,</p>
-      </div>
+    <div class="right-detail">
+      <p class="txt-color"> {{ 'MAIN' | translate}}</p>
+      <p class="small-txt">{{ 'ORDERDESC' | translate}}</p>
     </div>
-  
-    <div class="img-upload">
-      <p class="txt-color-service">Serivces Fees</p>
-      <div class="fees-class">
-        <div class="fees-detail">
-          <p class="first-p">Service Fees:</p>
-          <p class="sec-p">$60</p>
-        </div>
-  
-        <div class="fees-detail">
-          <p class="first-p">Spare Parts:</p>
-          <p class="sec-p">$30</p>
-        </div>
-  
-  
-        <div class="fees-detail">
-          <p class="first-p">Extra Fees:</p>
+  </div>
+
+  <div class="img-upload">
+    
+    <p class="txt-color-service"> {{ 'SERVICESFEE' | translate}}</p>
+    <div class="fees-class">
+      <div class="fees-detail">
+        <p class="first-p"> {{ 'SERVFEES' | translate}}</p>
+        <p class="sec-p">$60</p>
+      </div>
+
+      <div class="fees-detail">
+        <p class="first-p"> {{ 'SPAREPARTS' | translate}}</p>
+        <p class="sec-p">$30</p>
+      </div>
+
+
+      <div class="fees-detail">
+        <p class="first-p"> {{ 'EXTRAFEE' | translate}}</p>
+        <p class="sec-p">$10 </p>
+      </div>
+
+      <div class="fees-detail total-p">
+          <p class="first-p"> {{ 'TOTAL' | translate}}</p>
           <p class="sec-p">$10</p>
         </div>
-  
-        <div class="fees-detail total-p">
-            <p class="first-p">Total</p>
-            <p class="sec-p">$10</p>
-          </div>
-      </div>
     </div>
-  
-    <button class="done-btn signup-btn" ion-button full (click)="gotoCartPage()">Pay </button>
-  </ion-content>
+  </div>
+
+  <button class="done-btn signup-btn" ion-button full (click)="gotoCartPage()">{{ 'PAY' | translate}}</button>
+</ion-content>

@@ -21,7 +21,14 @@ import { OrderHistoryPage } from '../pages/order-history/order-history';
 import { ContactUsPage } from '../pages/contact-us/contact-us';
 import { OrderHistoryDetailPage } from '../pages/order-history-detail/order-history-detail';
 
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpModule, Http } from '@angular/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -41,7 +48,15 @@ import { OrderHistoryDetailPage } from '../pages/order-history-detail/order-hist
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(MyApp),
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+      }
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [

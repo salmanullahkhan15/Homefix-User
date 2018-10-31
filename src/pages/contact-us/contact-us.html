@@ -9,7 +9,7 @@
     <button ion-button menuToggle>
       <img class="img-menu" src="assets/imgs/home/menu.png" />
     </button>
-    <ion-title>CONTACT US</ion-title>
+    <ion-title>{{'CONTACTUS' | translate}}</ion-title>
     <!-- <button ion-button menuToggle class="btn-search">
         <img class="img-search" src="assets/imgs/home/search.png"/>
       </button> -->
@@ -19,36 +19,37 @@
 
 <ion-content padding class="bg-img">
 
+ 
   <div class="contact-txt">
-    Contact us if you need any help. We will be happy to assist you in any way and help you get started with your mobile app!
+    {{'CONTACTTEXT' | translate}}
   </div>
 
 
-  <div class="contact-form">
-    <ion-list>
+<div class="contact-form">
+  <ion-list>
 
-      <ion-item>
-        <ion-label floating>Username</ion-label>
-        <ion-input type="text"></ion-input>
-      </ion-item>
+    <ion-item>
+      <ion-label floating> {{'USRNAME' | translate}}</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
 
-      <ion-item>
-        <ion-label floating>Mobile Number</ion-label>
-        <ion-input type="number"></ion-input>
-      </ion-item>
+    <ion-item>
+      <ion-label floating>{{'MOBILE' | translate}}</ion-label>
+      <ion-input type="number"></ion-input>
+    </ion-item>
 
-      <ion-item>
-        <ion-label floating>Email Address</ion-label>
-        <ion-input type="email"></ion-input>
-      </ion-item>
+    <ion-item>
+      <ion-label floating> {{'EMAIL' | translate}}</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
 
-      <ion-item>
-        <ion-label floating>Message</ion-label>
-        <ion-input type="password"></ion-input>
-      </ion-item>
-    </ion-list>
+    <ion-item>
+      <ion-label floating>{{'MESSAGE' | translate}}</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
 
-  </div>
-  <button class="done-btn signup-btn" ion-button full (click)="gotoCartPage()">Send</button>
+</div>
+<button class="done-btn signup-btn" ion-button full (click)="gotoCartPage()"> {{'SEND' | translate}}</button>
 
 </ion-content>

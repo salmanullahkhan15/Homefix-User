@@ -1,0 +1,88 @@
+{
+    "LOGIN":"Login",
+    "SIGN_UP": "Sign Up",
+    "EMAIL":"Email Address ",
+    "PASSWORD": "Password",
+    "FORGOT":"Forget Password ?",
+    "REMEMBER": "Remember me",
+    "DONE": "Done",
+    "USERNAME":"Alaa Eldin Bashir",
+    "CONFIRMPASSWORD": "Confirm Password",
+    "MOBILE":"Mobile Number",
+    "HOME": "HOME",
+    "HOUSECLEANING": "HOUSE CLEANING",
+    "CARWASH":"CAR WASH",
+    "ELECTRICIAN": "ELECTRICIAN",
+    "PLUMBING": "PLUMBING",
+    "PAINTING":"PAINTING",
+    "GARDENING": "GARDENING",
+    "ORDER-DETAIL":"ORDER DETAILS",
+    "ORDER":"ORDER",
+    "GARDENINGSMALL": "Gardening",
+    "ACCEPT":"ACCEPT",
+    "REJECT":"REJECT",
+    "FINMAINTENANCE":"Finish Maintenance",
+    "STRTMAINTENANCE":"Start Maintenance",
+    "SENDTOCLIENT":"SEND TO CLIENT",
+    "PAID":"PAID",
+    "TOTAL":"Total",
+    "DATE":"Date",
+    "TIME":"Time",
+    "MAIN":"Maintenance",
+    "LOCATION":"Location",
+    "UPLOADPHOTO":"Upload Photos",
+    "ADDORDER":"Add Order",
+    "ADDLOCATION":" Add Location",
+
+    "EXTRAFEE":"Extra Fees:",
+
+    "SPAREPARTS":"Spare Parts:",
+    "SERVFEES":"Service Fees:",
+    "SERVICESFEE":"Serivces Fees",
+
+    "ORDERDESC":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, the industry's standard dummy text ever since the 1500s",
+    "ADDRESS":" A 345 Suit Business Avenue",
+    "CLIENTNAME":"Muhammad Faizan Shaikhs",
+
+    "MAINSERVICE":"Maintenance Service",
+    "ORDERNUM":"Your Order No.",
+    "REASONTITLE":" Please Enter Rejection Reason",
+    "SAVE":"Save",
+
+
+    "PAYMENTORDERNUM":" Payment to Order No.",
+    "Client":"Client",
+    "SUCCESSFULLY":"SUCCESSFULLY",
+    "PAYMENTMETHOD":"PAYMENT METHOD",
+    "PAYWITHCASH":"PAY WITH CARD OR CASH",
+    "CASH":"Cash",
+    "COUNTRY":"COUNTRY",
+    "WHATTICKETSWOULD":"WHAT TICKETS WOULD YOU LIKE?",
+    "FIRSTNAME":"First Name ",
+    "LASTNAME":"Last Name ",
+    "CVC":"CVC",
+    "EXPIREDATE":"Expiration Date",
+    "CARDNUM":"Card Number",
+    "SUBMIT":"Submit",
+
+    "CLIENTCITY":"Ryadh",
+    "CONTACTUS":"CONTACT US",
+    
+    "CONTACTTEXT":"Contact us if you need any help. We will be happy to assist you in any way and help you get started with your mobile app!"
+    ,"SEND":"Send",
+    "MESSAGE":"Message",
+    "USRNAME":"Username",
+    "PROFILE":"PROFILE",
+
+    "ORDER_HISTORY_LIST":"ORDER HISTORY LIST",
+    "REMOVE":"Remove",
+    "PAY":"Pay",
+    "SUBTOTAL":"Subtotal",
+    "CHKOUT":"Checkout"
+
+
+
+   
+
+
+}
